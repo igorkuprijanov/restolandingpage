@@ -1,0 +1,604 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#navigation{
+    width: 20vw;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    height: 100%;
+}
+#mainpage{
+    top: 0;
+}
+#title{
+    position: absolute;
+    right: 0;
+}
+#mainbackground{
+    width: 90vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    filter: brightness(0.75)
+}
+#tablebookbutton{
+    color: #f3f3f3;
+    background: #c30e13;
+    width: 70%;
+    height: 10%;
+    letter-spacing: 4px;
+    border: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 14px;
+    margin-left: 15%;
+    position: absolute;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.menuitem{
+    margin: 15px;
+    margin-left: 24px;
+    font-size: 16px;
+}
+.menuitem:hover{
+    cursor: pointer;
+}
+#logo{
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#logoimage{
+    width: 50px;
+    height: 70px;
+    margin-left: 24px;
+    margin-top: 10px
+}    
+#logotext{
+    font-size: 24px;
+    text-align: center;
+    width: 100px;
+    font-family: 'Playball', cursive;
+}
+#title{
+    color: white;
+    font-size: 6rem;
+    height: 50px;
+    width: 50px;
+    margin-right: 400px;
+    margin-top: 0;
+    text-align: center;
+}
+#socialmediacontainer{
+    width: 13rem;
+    height: 6rem;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+    display: flex;
+    justify-content: center;
+}
+#icons{
+    display: flex;
+}
+i{
+    color: #c30e13;
+    font-size: 20px;
+    align-self: center;
+    margin: 10px 0px 10px 10px;
+}
+i:hover{
+    cursor: pointer;
+}
+#michelin{
+    width: 100%;
+    height: 100%px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 13%;
+}
+#michelinimage{
+    height: 30px;;
+    width: 40px;
+    
+}
+#michelintext1{
+    margin: 0;
+    color: #c30e13;
+    font-size: 12px;
+}
+#michelintext2{
+    margin: 0;
+    font-size: 18px;
+    color: #c30e13;
+}
+#menulist{
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#menulist li:before{
+    content: "\2022";
+    color: #c30e13;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.menulistItem{
+    margin-left: 50px;
+    text-decoration: none;
+    margin-top: 0.5em;
+    
+}
+.menulistItem:hover{
+    cursor: pointer;
+}
+#dessertmenuitem{
+    animation-delay: 0.2s;
+}
+#cocktailmenuitem{
+    animation-delay: 0.4s;
+    margin-bottom: 5px;
+}
+#mainMenuPage{
+     width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+#dessertMenuPage{
+     width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+#cocktailMenuPage{
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+.menutitle{
+    color: black;
+    margin-left: 50px;
+    border-bottom: 1px solid gray;
+    width: 80%;
+     font-family: 'Playball', cursive;
+}
+.menuheading{
+    margin-left: 50px;
+    font-family: 'Crimson Text', serif;
+}
+.productname{
+     width: 90%;
+    border-bottom: 1px solid gray;
+    font-family: 'Crimson Text', serif;
+}
+.description{
+     width: 90%;
+    font-family: 'Crimson Text', serif;
+}
+.productimage{
+    width: 130px;
+    height: 130px;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+.price{
+    text-align: end;
+    width: 90%
+}
+.mainitems>li{
+    display: flex;
+    flex-direction: row;
+}
+.mainmenucontainer{
+    margin-left: 10%;
+}
+.drinks{
+    margin-left: 10%;
+    font-family: 'Crimson Text', serif;
+}
+.drinkmenu{
+    border-bottom: 1px solid gray;
+    width: 80%
+}
+#events{
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+.eventsubtitle{
+    margin-left: 10%;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    font-family: 'Crimson Text', serif;
+}
+.allevents>li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12%;
+}
+.eventtitle{
+    width: 90%;
+    font-family: 'Crimson Text', serif;
+}
+.eventdescription{
+    width: 90%;
+    font-family: 'Crimson Text', serif;
+}
+.eventimage{
+    width: 200px;
+    height: 200px;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+#team{
+     width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+.staffname{
+    font-family: 'Crimson Text', serif;
+}
+.stafftitle{
+    color: #4f4f4f;
+    font-family: 'Crimson Text', serif;
+}
+.staffdescription{
+    font-family: 'Crimson Text', serif;
+
+}
+.staffimage{
+    width: 250px;
+    height: 250px;
+}
+#teamlist{
+    list-style: none;
+}
+#teamlist>li{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-bottom: 30px
+}
+.teamdiv{
+    width: 50%;
+}
+#gallery{
+     width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+#media{
+      width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    font-family: 'Crimson Text', serif;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+.link{
+    color: blue;
+    text-decoration: underline;
+}
+.link:hover{
+    cursor: pointer;
+}
+.mediaitem{
+    width: 80%;
+    margin-left: 4%;
+    margin-bottom: 10%;
+}
+#blog{
+     width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    font-family: 'Crimson Text', serif;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+#contacts{
+     width: 60%;
+    height: 90%;
+    background-color: white;
+    margin-left: 25%;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    font-family: 'Crimson Text', serif;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+#innercontacts{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.contactssection{
+    display: flex;
+    text-align: center;
+}
+.contactstext{
+    margin-top: 22px;
+    margin-left: 30px;
+}
+.contacttitle{
+    width: 70px;
+}
+#galleryimages{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: center
+}
+.galleryimage{
+    width: 170px;
+    height: 170px;
+    margin: 10px 10px 0px 0px;
+}
+.blogcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.blogclosed{
+    display: flex;
+    justify-content: space-around;
+}
+.blogopened{
+    width: 450px;
+    margin-left: 15%;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    text-align: center;
+    display: none;
+}
+#blogtitle{
+    margin-left: 10%;
+    width: 80%;
+    border-bottom: 1px solid gray;
+}
+.blogname{
+    font-weight: 600;
+    font-size: 24px;
+    width: 40%;
+}
+.blogdate{
+    margin-top: 5%;
+}
+#bookingform{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    left: 30%;
+    z-index: 1;
+    top: 5vh;
+    display: none;
+    justify-content: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+}
+#mainform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-family: 'Crimson Text', serif;
+}
+#formname{
+    display: flex;
+    width: 100%;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+#nameinput{
+    width: 50%;
+    margin-left: 2%;
+}
+#formtime{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time{
+    margin-top: 3%;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.lable{
+    margin-right: 8px
+}
+#formlocation{
+    display: flex;
+      margin-top: 5%;
+}
+#locationchecks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    width: 150px;
+}
+.where{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+}
+#wherelable{
+    align-self: center;
+}
+#formamount{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;;
+    margin-top: 2%;
+}
+#formphone{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+#formmail{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+#formbuttons{
+    display: flex;
+    margin-top: 13%;
+    width: 80%;
+    justify-content: space-between;
+}
+.formbtn{
+    width: 30%;
+    height: 40px
+}
+#cancelbutton{
+    color: #f3f3f3;
+    background: #c30e13;
+    width: 40%;
+    height: 240%;
+    letter-spacing: 4px;
+    border: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 14px;
+    bottom: 20px;
+    cursor: pointer;
+}
+#submitbutton{
+        color: #f3f3f3;
+    background: #689df2;
+    width: 40%;
+    height: 240%;
+    letter-spacing: 4px;
+    border: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 14px;
+    bottom: 20px;
+    cursor: pointer;
+}
+#loader{
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #c30e13;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+    display: none;
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+    justify-content: center;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#succesmessage{
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-family: 'Crimson Text', serif;
+}
+#messagehead{
+    font-size: 2rem
+}
+#message{
+    width: 75%;
+    text-align: center;
+}
+#messageend{
+    font-size: 20px;
+}
+#succesmessagebtn{
+    width: 30%;
+    height: 100%;
+    margin-top: 5%;
+    font-family: 'Crimson Text', serif;
+    color: #f3f3f3;
+    background:  #c30e13;
+    letter-spacing: 4px;
+    border: none;
+    font-size: 16px;
+}
+.heading{
+    width: 80%;
+    margin-left: 4%;
+    border-bottom: 1px solid gray;
+    font-family: 'Playball', cursive;
+}
+.forminput{
+    padding: 3px 3px 3px 3px
+}

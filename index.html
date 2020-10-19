@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1468063927.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link rel="icon" href='chef.svg'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div id="navigation">
+       <div id="logo">
+          <img src="chef.svg" id="logoimage">
+           <h1 id="logotext">Delicatesso Restorante</h1>
+       </div>
+        <h2 class="menuitem" id="menubutton">MENU</h2>
+        <ul id="menulist" role="list">
+            <li class='menulistItem animate__animated animate__fadeInDown animate__faster' id="mainMenuItem" >Main menu</li>
+            <li class='menulistItem animate__animated animate__fadeInDown animate__faster' id="dessertMenuItem">Desser menu</li>
+            <li class='menulistItem animate__animated animate__fadeInDown animate__faster' id="cocktailMenuItem">Cocktail menu</li>
+        </ul>
+        <h2 class="menuitem" id="eventsbutton">EVENTS</h2>
+        <h2 class="menuitem" id="teambutton">TEAM</h2>
+        <h2 class="menuitem" id="gallerybutton">GALLERY</h2>
+        <h2 class="menuitem" id="mediabutton">MEDIA</h2>
+        <h2 class="menuitem" id="blogbutton">BLOG</h2>
+        <h2 class="menuitem" id="contactsbutton">CONTACTS</h2>
+        <div id="michelin">
+           <img id="michelinimage" src="michelinlogo.png">
+            <p id="michelintext1">LE GUIDE </p>
+            <p id="michelintext2">MICHELIN</p>
+        </div>
+        <button id='tablebookbutton'>BOOK A TABLE</button> 
+    </div>
+    <div id="mainpage">
+        <p class='restotitle' id="title">Delicatesso Restorante</p>
+        <img id="mainbackground" src="mainpagebackground.jpg">
+        <div id="mainMenuPage">
+            <h1 class="menutitle">Main courses</h1>
+            <h2 class="menuheading">Soups</h2>
+            <ul class="mainitems">
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Minestra di ceci</h3>
+                <p class="description">Italian soup prepared with chickpeas, salt cod, chestnuts and artichoke.</p>
+                <p class='price'>-11.99€</p>
+                </div>
+                <img class="productimage" src="Minestradiceci.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Stracciatella</h3>
+                <p class="description">Italian soup consisting of meat broth and small shres of an egg-based mixture.</p>
+                <p class='price'>-8.99€</p>
+                </div>
+                <img class="productimage" src="Stracciatella.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Garmuiga</h3>
+                <p class="description">Tuscanian soup made from chicken broth, asparagus, artichocke hearts and fava beans.</p>
+                <p class='price'>-9.99€</p>
+                </div>
+                <img class="productimage" src="Garmuiga.jpg"> 
+                </li>
+            </ul>
+            <h2 class="menuheading">Pasta</h2>
+            <ul class="mainitems">
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Ciceri e tria</h3>
+                <p class="description">Classic and emblematic dish of Salentine cuisine with chickpeas and crunchy pasta.</p>
+                <p class='price'>-15.99€</p>
+                </div>
+                <img class="productimage" src="Cicerietria.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Arrabbiata sauce</h3>
+                <p class="description">Spicy pasta made from garlic, tomatoes and dried red chili peppers and cooked in olive oil.</p>
+                <p class='price'>-13.99€</p>
+                </div>
+                <img class="productimage" src="Arrabbiata.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Pasta con le sarde</h3>
+                <p class="description">Sicilian dish with sardines, anchovies onions, fennel and olive oil. </p>
+                <p class='price'>-14.99€</p>
+                </div>
+                <img class="productimage" src="Pastaconlesarde.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Ravioli</h3>
+                <p class="description">Pasta comprising a cheese filling enveloped in thin pasta dough.</p>
+                <p class='price'>-9.99€</p>
+                </div>
+                <img class="productimage" src="Ravioli.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Fettuccine alfredo</h3>
+                <p class="description">Fresh fettuccine tossed with butter and Parmesan cheese.</p>
+                 <p class='price'>-12.99€</p>
+                </div>
+                <img class="productimage" src="Fettuccinealfredo.png">
+                </li>
+            </ul>
+            <h2 class="menuheading">Carne</h2>
+            <ul class="mainitems">
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname" >Braciolone</h3>
+                <p class="description">Braised beef filled with cheese, salami, hard-boiled eggs and breadcrumbs</p>
+                 <p class='price'>-17.99€</p>
+                </div>
+                <img class="productimage" src="Braciolone.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Rosticciana</h3>
+                <p class="description">Pork ribs, chops and sausages seasoned with various spices and grilled on charcoal.</p>
+                 <p class='price'>-19.99€</p>
+                </div>
+                <img class="productimage" src="Rosticciana.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Veal alla Milanese</h3>
+                <p class="description">Veal rib chop made into a breaded cutled with fried butter.</p>
+                <p class='price'>-15.99€</p>
+                </div>
+                <img class="productimage" src="VealallaMilanese.jpg">
+                </li>
+            </ul>
+            <h2 class="menuheading">Pizza</h2>
+            <ul class="mainitems">
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Pizza margherita</h3>
+                <p class="description">Pizza made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil.</p>
+                <p class='price'>-14.99€</p>
+                </div>
+                <img class="productimage" src="pizzamarghareta.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Pizza pugliese</h3>
+                <p class="description">Pizza with tomatoes, onion, cheese, olives and mozzarella.</p>
+                <p class='price'>-13.99€</p>
+                </div>
+                <img class="productimage" src="Pizzapugliese.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Pizza pescatore</h3>
+                <p class="description">Pizza with mussels, shrimp, squid and onions and mozzarella cheese.</p>
+                <p class='price'>-12.99€</p>
+                </div>
+                <img class="productimage" src="pizzapescatore.jpg">
+                </li>
+                <li>
+                <div class="mainmenucontainer">
+                <h3 class="productname">Pizza quattro formaggi</h3>
+                <p class="description">Pizza with combination of four kinds of cheese (mozzarella, gorganzola, pecorino, ricotta) melted together with tomato souce.</p>
+                <p class='price'>-13.99€</p>
+                </div>
+                <img class="productimage" src="pizzaquattroformaggi.jpg">
+                </li>
+            </ul>
+        </div> 
+        <div id="dessertMenuPage">
+            <h1 class="menutitle">Desserts</h1>
+            <ul class="mainitems">
+                <li>
+                   <div class="mainmenucontainer">
+                    <h3 class="productname">Affogato</h3>
+                    <p class="description">Italian coffe-based dessert. Vanilla gelato topped with a shot of hot espresso.</p>
+                    <p class='price'>-10.99€</p>
+                    </div>
+                    <img class="productimage" src="affogao.jpg">
+                </li>
+                <li>
+                   <div class="mainmenucontainer">
+                    <h3 class="productname">Panna cotta</h3>
+                    <p class="description">Sweetened cream thickened with gelatin and molded, aromoatized with coffee and vanilla.</p>
+                    <p class='price'>-8.99€</p>
+                    </div>
+                    <img class="productimage" src="pannacotta.jpg">
+                </li>
+                <li>
+                   <div class="mainmenucontainer">
+                    <h3 class="productname">Tiramisu</h3>
+                    <p class="description">Coffee-flavoured Italian dessert made of ladyfingers layered with a whipped mixture of eggs, sugar and mascarpone.</p>
+                    <p class='price'>-7.99€</p>
+                    </div>
+                    <img class="productimage" src="tiramisu.jpg">
+                </li>
+                <li>
+                   <div class="mainmenucontainer">
+                    <h3 class="productname">Gelato</h3>
+                    <p class="description">Traditional italian frozen dessert with 6 different flavors (strawberry, vanilla, chocolate, pistachio, pear and blueberry).</p>
+                    <p class='price'>-6.99€</p>
+                    </div>
+                    <img class="productimage" src="gelato.jpg">
+                </li>
+                <li>
+                   <div class="mainmenucontainer">
+                    <h3 class="productname">Cannoli</h3>
+                    <p class="description">Pastrie consisting of tube-shaped shells of fried pastry dough, filled with a sweet creamy filling.</p>
+                    <p class='price'>-8.99€</p>
+                    </div>
+                    <img class="productimage" src="Cannoli.jpg">
+                </li>
+            </ul>
+        </div>
+        <div id="cocktailMenuPage">
+            <h1 class="menutitle">Cocktails and drinks</h1>
+            <h2 class="menuheading drinkmenu">Cocktails and alcoholic bevrages</h2>
+            <ul class="drinks">
+                <li>Ammazzacaffè.</li>
+                <p>-9.99€</p>
+                <li>Caipirinha.</li>
+                <p>-10.99€</p>
+                <li>Grappa.</li>
+                <p>-6.99€</p>
+                <li>Kalimotxo.</li>
+                <p>-8.99€</p>
+                <li>Tinto de Verano.</li>
+                <p>-7.99€</p>
+                <li>Sangria.</li>
+                <p>-7.99€</p>
+                <li>Aperol Spitz.</li>
+                <p>-5.99€</p>
+            </ul>
+            <h2 class="menuheading drinkmenu">White Wine</h2>
+            <ul class="drinks">
+                <li>Pinot Grigio, Mionetto, Veneto, Italy.</li>
+                <p>-9.99€</p>
+                <li>Pinot Grigio, Livio Felluga 'Map Label', Friuli, Italy.</li>
+                <p>-11.99€</p>
+                <li>White Blend 'Anthilia', Donna Fugata, Sicily, Italy.</li>
+                <p>-10.99€</p>
+                <li>Sauvignon Blanc, Brancott Vineyards Marlborough, New Zealand.</li>
+                <p>-14.99€</p>
+                <li>Chardonnay, Kendall-Jackson 'Vinter's Reserve', California.</li>
+                <p>-15.99€</p>
+            </ul>
+            <h2 class="menuheading drinkmenu">Red Wine</h2>
+            <ul class="drinks">
+                <li>Corvo, 'Red', Italy.</li>
+                <p>-8.99€</p>
+                <li>Chianti Classico, Coli, Tuscany, Italy.</li>
+                <p>-9.99€</p>
+                <li>Chinati Classico, Melini Isassi, Tuscany, Italy.</li>
+                <p>-13.99€</p>
+                <li>Shiraz, Yellow Tail, Australia.</li>
+                <p>-8.99€</p>
+                <li>Merlot, Red Dimond, Washington State.</li>
+                <p>-14.99€</p>
+            </ul>
+            <h2 class="menuheading drinkmenu">Coffee Drinks</h2>
+            <ul class="drinks">
+                <li>Latte</li>
+                <p>-4.99€</p>
+                <li>Americano</li>
+                <p>-5.99€</p>
+                <li>Lungo</li>
+                <p>-5.99€</p>
+                <li>Cappuccino</li>
+                <p>-4.99€</p>
+                <li>Mocha</li>
+                <p>-5.99€</p>
+                <li>Caffe au lait</li>
+                <p>-6.99€</p>
+                <li>Affogato</li>
+                <p>-6.99€</p>
+                <li>Espresso</li>
+                <p>-4.99€</p>
+            </ul>
+            <h2 class="menuheading drinkmenu">Non-alcoholic Drinks</h2>
+            <ul class="drinks">
+                <li>Water/Sparkling Water</li>
+                <p>-2.99€</p>
+                <li>Juice</li>
+                <p>-3.99€</p>
+                <li>Fizzy-drinks</li>
+                <p>-3.99€</p>
+            </ul>
+        </div> 
+        <div id="events">
+            <h1  class='heading'>Events</h1>
+            <h2 class="eventsubtitle">Upcoming events</h2>
+            <ul class="allevents">
+                <li>
+                   <div>
+                    <h3 class="eventtitle">Wine tasting eavining.</h3>
+                    <p class="eventdescription">Together with the best local sommeliers and a few special guests join us in a wine tasting eving. Don't miss your chance to learn from the pros and discover something new for yourself!</p>
+                    <p class="eventdate">11/01/2021</p>
+                    </div>
+                    <img class="eventimage" src="winetasting.jpg">
+                </li>
+                <li>
+                   <div>
+                    <h3 class="eventtitle">Celebration of new park opening.</h3>
+                    <p class="eventdescription">A new park founded by local buisnesses and private investors has been finally opened! To celebrate this event we invite you all to our restourant. 25% of all pastas nad pizzas as well as 50% off of all the drinks! Don't miss your chance and come celebrate with us.</p>
+                    <p class="eventdate">11/12/2020</p>
+                    </div>
+                    <img class="eventimage" src="parkopening.jpg">
+                </li>
+            </ul>
+            <h2 class="eventsubtitle">Recent events</h2>
+            <ul class="allevents">
+                <li>
+                   <div>
+                    <h3 class="eventtitle">Charity run.</h3>
+                    <p class="eventdescription">On this Friday all the paritcipants of EX Charity Marathon have 30% disount for all meals and drinks at our restourant. Just come in with your run number and get a bonus dessert for free!</p>
+                    <p class="eventdate">02/10/2020</p>
+                    </div>
+                    <img class="eventimage" src="marathon.jpg">
+                </li>
+                <li>
+                   <div>
+                    <h3 class="eventtitle">Charity auction.</h3>
+                    <p class="eventdescription">To support 'Children in Need ' - the non-profit organisation helping children in need, we host this charity auction. The lots will consist of art pieces and crafts from our locals. All the profits from the auction will go towards charity. Come and join us for a good cause.</p>
+                    <p class="eventdate">27/07/2020</p>
+                    </div>
+                    <img class="eventimage" src="auction.jpg">
+                </li>
+                <li>
+                   <div>
+                    <h3 class="eventtitle">Local business event.</h3>
+                    <p class="eventdescription">To promote our partners and friends WoodLex Co, the young local woodworking company with new aproach on frurnishing manifacturing, we host this eavning event together with WoodLex Co representatives. The event will have showcasing of their products and Q&A with the founder Leen Anderson.</p>
+                    <p class="eventdate">09/04/2020</p>
+                    </div>
+                    <img class="eventimage" src="woodworkingcompany.jpg">
+                </li>
+            </ul>
+        </div>
+        <div id="team">
+           <h1  class='heading'>Our Team</h1>
+            <ul id="teamlist">
+                <li>
+                    <div class="teamdiv">
+                        <h2 class="staffname">Guiseppe Perini</h2>
+                        <h3 class="stafftitle">Head Chef</h3>
+                        <p class="staffdescription">Guiesppe has been a part of our team for more than 4 years. Due to his passionate work and incredible cooking the restourant is what it is today.</p>
+                    </div>
+                    <img class="staffimage" src="headchef.jpg">
+                </li>
+                <li>
+                    <div class="teamdiv">
+                        <h2  class="staffname">Alessandro Ferto</h2>
+                        <h3 class="stafftitle">Assistant Chef</h3>
+                        <p  class="staffdescription">Allesandro is our upcoming cooking star. Passionate about his cooking and great taste, we can see his great future in the indurstry.</p>
+                    </div>
+                    <img class="staffimage" src="assistandchef.jpg">
+                </li>
+                   <li>
+                    <div class="teamdiv">
+                        <h2  class="staffname">Laura Sientio</h2>
+                        <h3 class="stafftitle">Manager</h3>
+                        <p  class="staffdescription">Laua has contributed immensely to the development of the restourant and is working every day to organise the workflow, customer relations and best service possible.</p>
+                    </div>
+                    <img class="staffimage" src="manager.jpg">
+                </li>
+                   <li>
+                    <div class="teamdiv">
+                        <h2 class="staffname">Stella Rosenberg</h2>
+                        <h3 class="stafftitle">Head of Serving</h3>
+                        <p  class="staffdescription">She has been with us for over 3 years and has been doing a great job ever since. Stella in charge of the general serving and managing waitstaff.</p>
+                    </div>
+                    <img class="staffimage" src="headofserving.jpg">
+                </li>
+                   <li>
+                    <div class="teamdiv">
+                        <h2  class="staffname">Stefano Ricci</h2>
+                        <h3 class="stafftitle">Head of Hosting</h3>
+                        <p  class="staffdescription">Stefano has organized dozens of events in our restourant and has been at the hearth of it for years. </p>
+                    </div>
+                    <img class="staffimage" src="headofhosting.jpg">
+                </li>
+            </ul>
+        </div> 
+        <div id="gallery">
+           <h1  class='heading'>Gallery</h1>
+            <div id="galleryimages">
+                <img class="galleryimage" src="gallery1.jpg">
+                <img class="galleryimage" src="gallery2.jpg">
+                <img class="galleryimage" src="gallery3.jpg">
+                <img class="galleryimage" src="gallery4.jpg">
+                <img class="galleryimage" src="gallery5.jpg">
+                <img class="galleryimage" src="gallery6.jpg">
+                <img class="galleryimage" src="gallery7.jpg">
+                <img class="galleryimage" src="gallery8.jpg">
+                <img class="galleryimage" src="gallery9.jpg">
+            </div>
+        </div>
+        <div id="media">
+           <h1  class='heading'>Mentions in media</h1>
+            <ul>
+            <li class="mediaitem">
+               <h2>NCR International</h2>
+                <h3>Best authentic pasta in town</h3>
+                <p>As NCR Internation food critic came into the restourant, we all knew what is going on, yet nobody had a clue how it would escalate. As a truly authentic and delicious pasta producers we knew our strong sides and decided to show them all to the beloved Nick Rosenberg. Learn what Nick thought about our restourant by following to the NRC International website and read the full article</p>
+                <p>09/02/2020</p>
+                <a class="link" onclick="redirectToMore()">Read more</a>
+            </li>
+            <li class="mediaitem">
+               <h2>The Sillinger</h2>
+                <h3>Home of the most delicious italian pizza.</h3>
+                <p>The Sillinger has been in the center of food and restourant journalism for decades. So we were very pleased to welcom them and show them around our resto. Read about what they thought about us on ther website in a full article.</p>
+                <p>10/10/2019</p>
+                <a class="link" onclick="redirectToMore()">Read more</a>
+            </li>
+            <li class="mediaitem">
+               <h2>"Head Chef" TV Show</h2>
+                <p>Our restourant and our head chef Guiseppe Perini have been feutured on "Head Chef" TV show in the episode 7, season 3. Follor the link to view the full episode on the official NBC Media website.</p>
+                <p>04/05/2019</p>
+                <a class="link" onclick="redirectToMore()">Watch the episode</a>
+            </li>
+            <li class="mediaitem">
+               <h2>"The Foodist" TV Show</h2>
+                <p>Extremely popular food-themed TV show "The Foodist" has filmed one of their episodes in our restourant and also reviewed our menu, staff and food. To watch the full episode on official "The Foodist" webpage.</p>
+                <p>30/03/2019</p>
+                <a class="link" onclick="redirectToMore()">Watch episode</a>
+            </li>
+            <li class="mediaitem">
+               <h2>Di Merco e Seda</h2>
+                <h3>"A piece of Italy right around the corner."</h3>
+                <p>Di Merco e Seda, a well-know italian food critics and degustators have highly rated our restourand and futured a full length article about our restournat. They mainly focus on italian food outside of Italy. To read their full article follow the link to their official website.</p>
+                <p>23/11/2018</p>
+                <a class="link" onclick="redirectToMore()">Read more</a>
+            </li>
+            </ul>
+        </div>
+        <div id="blog">
+           <h1  class='heading'>Blog</h1>
+               <div class="blogcontainer">
+                <div class="blogclosed">
+                    <p class="blogname">The New Way</p>
+                    <p class="blogdate">18/01/2020</p>
+                    <i class="fas fa-plus blogicon"></i>
+                </div>
+                <p class='blogopened'>As the world around us, also our restourant is changing. Laterly we have been working a lot on a new way of serving our customers, including home delivery of our dellicios meals and eating outside on the recently built patio. Also we try to reorganise our workflow to make your eavnings as pleasant and memorable as possible.</p>
+            </div>
+               <div class="blogcontainer">
+                <div class="blogclosed">
+                    <p class="blogname">Charity Events</p>
+                    <p class="blogdate">10/08/2019</p>
+                    <i class="fas fa-plus blogicon"></i>
+                </div>
+                <p class='blogopened'>Lately we have had many charity events and they have been quite successful. Many of our partners are non-profit organisations and we work hard to help them do their thing. We want to thank all of you who had contributed to our recent charity events and helped many charity organisations. </p>
+            </div>
+               <div class="blogcontainer">
+                <div class="blogclosed">
+                    <p class="blogname">Great Eaving</p>
+                    <p class="blogdate">12/03/2019</p>
+                    <i class="fas fa-plus blogicon"></i>
+                </div>
+                <p class='blogopened'>Tonight we had an amazing eavning with record high amount of people visting us today. We are proud to have served 1342 customers tonight and hope to have given them a great experience and an amazing eavning!</p>
+            </div>
+               <div class="blogcontainer">
+                <div class="blogclosed">
+                    <p class="blogname">Exelent Reviews</p>
+                    <p class="blogdate">12/08/2018</p>
+                    <i class="fas fa-plus blogicon"></i>
+                </div>
+                <p class='blogopened'>The recent reviews for our restourant are exellent! We are happy to announce that we might as welle be the best restourant in town! Thank you to every food critic, reviewer, journlist and every regular cutomer. We would never have gotten this far without your help. You are the best!</p>
+            </div>
+               <div class="blogcontainer">
+                <div class="blogclosed">
+                    <p class="blogname">New Staff Members</p>
+                    <p class="blogdate">15/02/2018</p>
+                    <i class="fas fa-plus blogicon"></i>
+                </div>
+                <p class='blogopened'>We are happy to welcome our new Head of Serving, Stella Rosenberg, she will be working hard to make your visits to our restourant as unforgettable as it is possible. We wish her a great joureny at our restourant and a great work!</p>
+            </div>
+               <div class="blogcontainer">
+                <div class="blogclosed">
+                    <p class="blogname">Organising Events</p>
+                    <p class="blogdate">23/11/2017</p>
+                    <i class="fas fa-plus blogicon"></i>
+                </div>
+                <p class='blogopened'>As many of you know, we organised a charity event to help our Santington Wildlife reservation. We are very thankful for everybody who helped us to reach our goal of 10 000€, all the gathered money will go towards the medical supplies and wildlife reservation fund. Thank you all for participating!</p>
+            </div>
+               <div class="blogcontainer">
+                <div class="blogclosed">
+                    <p class="blogname">Special Guests</p>
+                    <p class="blogdate">10/07/2017</p>
+                    <i class="fas fa-plus blogicon"></i>
+                </div>
+                <p class='blogopened'>Yesterday we had some very special guest. Major political celebrities, governor John Hoof and Mr. William Geston were pleasurably surprised by our staff and cooks. We are happy tp have such guests and happy for everyone we could share this amazing eavining with.</p>
+            </div>
+            <div class="blogcontainer">
+                <div class="blogclosed">
+                    <p class="blogname">The Grand Opening</p>
+                    <p class="blogdate">01/03/2017</p>
+                    <i class="fas fa-plus blogicon"></i>
+                </div>
+                <p class='blogopened'>Tonight we are welcoming all of you to celebrate the grand opening of our restourant. We hope that the restourant will be a part of the local cultural scene for many years. We are happy to see our first clients tonight and we will do our best to make your eavnings here unforgetable.</p>
+            </div>
+        </div>
+        <div id="contacts">
+           <h1 class='heading'>Contacts</h1>
+            <div id="innercontacts">
+                <h2>Come over and see for yourself!</h2>
+                <div class='contactssection'>
+                <h3 class="contacttitle">Address:</h3>
+                <p class="contactstext">Merkendel Street 64, PQ3013, West-Borrough, Settown<p>
+                </div>
+                <div class='contactssection'>
+                <h3 class="contacttitle">Phone:</h3>
+                <p class="contactstext">(061) 382 239 485</p>
+                </div>
+                <div class='contactssection'>
+                <h3 class="contacttitle">E-mail:</h3>
+                <p class="contactstext">info@delicatesso.com</p>
+                </div>
+            </div>
+        </div>
+        <div id="bookingform">
+            <form id="mainform">
+               <div id="formname">
+                <lable>Name</lable>
+                <input class="forminput" id="nameinput" placeholder="John">
+                </div>
+                 <div id="formtime">
+                 <div class="time">
+                <lable class='lable'>Date</lable>
+                <input class="forminput" placeholder="DD//MM//YYYY">
+                </div>
+                <div class="time">
+                <lable class='lable'>Time</lable>
+                <input class="forminput" placeholder="eg: 10:00 AM">
+                </div>
+                </div>
+                <div id="formlocation">
+                    <label id="wherelable">Where?</label>
+                    <div id="locationchecks">
+                    <div class="where">
+                   <label>First floor</label><input class="forminput" type="checkbox"></div>
+                   <div class="where">
+                   <label>Second floor</label><input class="forminput" type="checkbox"></div>
+                   <div class="where">
+                   <label>Outside</label><input class="forminput" type="checkbox"></div>
+                   </div>
+                </div>
+                <div id="formamount">
+                <lable class='lable'>How many people?</lable>
+                <input class="forminput" placeholder="10" type="number">
+                </div>
+                <div id="formphone">
+                    <label class='lable'>Phone number</label>
+                    <input class="forminput" placeholder="063 938 938">
+                </div>
+                <div id="formmail">
+                    <label>E-mail</label>
+                    <input class="forminput" placeholder="john.doe@mail.com">
+                </div>
+                <div id="formbuttons">
+                    <button class="formbtn" id="cancelbutton">CANCEL</button>
+                    <button class="formbtn" id="submitbutton">SUBMIT</button>
+                </div>
+            </form>
+            <div id="loader"></div>
+            <div id="succesmessage">
+                <h2 id="messagehead">Thank you for your booking!</h2>
+                <p id="message">A conformation message has been sent to your e-mail address. In case of unplanned changes in the restourant workflow we will send you a message to your cell phone.</p>
+                <h4 id="messageend">We hope to see you at our restourant soon!</h4>
+                <button id="succesmessagebtn">CLOSE</button>
+            </div>
+        </div>
+    </div>
+    <div id='socialmediacontainer'>
+       <div id="icons">
+        <i id="facebookredirect" class="fab fa-facebook-square"></i>
+        <i id="instagramredirect" class="fab fa-instagram-square"></i>
+        <i id="youtuberedirect" class="fab fa-youtube-square"></i>
+        <i id="whatsappredirect" class="fab fa-whatsapp-square"></i>
+        <i id="twitterredirect" class="fab fa-twitter-square"></i>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
