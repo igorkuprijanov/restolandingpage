@@ -222,6 +222,7 @@ i:hover{
 }
 .mainmenucontainer{
     margin-left: 10%;
+    width: 100%;
 }
 .drinks{
     margin-left: 10%;
@@ -431,12 +432,13 @@ i:hover{
     height: 500px;
     background-color: white;
     position: relative;
-    left: 30%;
     z-index: 1;
-    top: 5vh;
     display: none;
     justify-content: center;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.69);
+    margin-left: auto;
+    margin-right: auto;
+    top: 15vh;
 }
 #mainform{
     display: flex;
@@ -601,4 +603,81 @@ i:hover{
 }
 .forminput{
     padding: 3px 3px 3px 3px
+}
+@media only screen and (max-width: 768px){
+    #socialmediacontainer{
+        width: 35%;
+        height: 5%;
+    }
+    i{
+        margin: 2px 2px 2px 2px;
+    }
+    #navigation{
+        width: 30%;
+    }
+    #logo{
+        transform: scale(0.5);
+        margin-right: 100px;
+    }
+    .menuitem{
+        font-size: 12px;
+    }
+    .menulistItem{
+        font-size: 12px;
+        margin-left: 6px;
+    }
+    #title{
+        font-size: 28px;
+        margin-right: 85px;
+    }
+    #bookingform{
+        transform: scale(0.5);
+        margin-left: -60px;
+        border: 1px solid gray;
+        top: 5vh;
+    }
+    #mainMenuPage{
+        border: 1px solid lightgray;
+    }
+    .productimage{
+        visibility: hidden;
+    }
+    
+    #dessertMenuPage{
+        border: 1px solid lightgray;
+    }
+    #cocktailMenuPage{
+        border: 1px solid lightgray;
+    }
+    #events{
+        border: 1px solid lightgray;
+    }
+    .eventimage{
+        visibility: hidden;
+    }
+    #team{
+        border: 1px solid lightgray;
+    }
+    .staffimage{
+        visibility: hidden;
+    }
+    #gallery{
+        border: 1px solid lightgray;
+    }
+    #media{
+        border: 1px solid lightgray;
+    }
+    #blog{
+        border: 1px solid lightgray;
+    }
+    .blogopened{
+        width: 90%;
+        margin-left: 10px;
+    }
+    #contacts{
+        border: 1px solid lightgray;
+    }
+    #mainbackground{
+        object-fit: cover;
+    }
 }

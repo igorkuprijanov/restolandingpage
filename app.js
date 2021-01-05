@@ -435,7 +435,6 @@ document.getElementById('blogbutton').addEventListener('click', function(){
 
 let plusicons = document.querySelectorAll('.blogicon')
 let blogposttext = document.querySelectorAll('.blogopened')
-console.log(blogposttext)
 let openStatus = false
 
 for(let i = 0; i<plusicons.length; i++){
@@ -443,7 +442,6 @@ for(let i = 0; i<plusicons.length; i++){
         if(openStatus == false){
             blogposttext[i].style.display = 'inline'
             openStatus = true
-            console.log('ass')
         }else{
              blogposttext[i].style.display = 'none'
             openStatus = false
@@ -585,7 +583,6 @@ document.getElementById('submitbutton').addEventListener('click', submitBooking)
 
 function submitBooking(event){
     event.preventDefault()
-    console.log('great anal sex')
     document.getElementById('mainform').style.display = 'none'
     document.getElementById('loader').style.display = 'block'
     setTimeout(() => {document.getElementById('loader').style.display = "none"
